@@ -1,0 +1,19 @@
+.college1{
+    background-image: url(college1.jpeg);
+ 
+
+
+   /* Control the height of the image */
+   min-height: 900px;
+   min-width: 900px;
+   
+ 
+   /* Center and scale the image nicely */
+   background-position:top;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-position: cover;
+   position: relative;
+ 
+  
+ }

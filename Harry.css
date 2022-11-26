@@ -1,0 +1,186 @@
+    .button-container{
+        background-image:url(1912151.jpg) ;
+        min-height: 900PX;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+}
+
+.bg-img1{
+ 
+  background-image: url(bgm2.jpg);
+  /* Control the height of the image */
+  min-height: 900px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+.btn2{
+  background-color:black ;
+  color: white;
+  position:absolute;
+  padding: 35px  ;
+  border-radius: 10 px;
+  font-size: 30px;
+  cursor: pointer;
+  bottom: 70%;
+  text-align: center;
+  text-decoration: ivory;
+  left: 600px;
+  width: 20%;
+  opacity: 0.9;
+}
+.Register{
+  position: 10%;
+}
+.head1{
+  color:white; 
+  position: absolute;
+  background-color: black;
+  top:0%;
+  left:0% ;
+  width: 100% ;
+  text-align:center;
+  font-size: 3rem;
+  text-shadow:  5px;
+}
+.or2{
+  color: black; 
+  position: absolute;
+  bottom:55%;
+  left: 690px;
+  width: 100% ;
+  font-size: 3rem;
+  text-shadow:  5px;
+}
+.btn1{
+  background-color:black;
+  color: white;
+  position:absolute;
+  padding: 35px ;
+  border:mediumslateblue;
+  cursor: pointer;
+  text-align: center;
+  bottom: 30%;
+  font-size: 30px;
+  left: 600px;
+  width: 20%;
+  opacity: 0.9;
+}
+
+.button-container a{
+    position: absolute;
+    bottom: 50%;
+    left: 600px;
+    background-color: turquoise;
+    border-radius: 1.5em;
+    color: white;
+    text-transform: uppercase;
+    padding: 1em 1.5em;
+}
+.button-contain a{
+    position: absolute;
+    top: 68%;
+    left: 60%;
+    background-color: turquoise;
+    border-radius: 1.5em;
+    color: white;
+    text-transform: uppercase;
+    padding: 1em 1.5em;
+
+}
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  /* Control the height of the image */
+  min-height: 900px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+ 
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 400px;
+  top: 30%;
+  margin: 20px;
+  max-width: 500px;
+  padding: 16px;
+  background-color: white;
+}
+.sidebar{
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100px;
+  background: #042331;
+}
+.sidebar header{
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+  background: #063146;
+  user-select: none;
+}
+.sidebar ul a{
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 20px;
+  color: white;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(255,255,255,.1);
+  border-bottom: 1px solid black;
+  transition: .4s;
+
+}
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}

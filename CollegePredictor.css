@@ -1,0 +1,204 @@
+.CollegePredictor_row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .CollegePredictor_marginTop {
+    margin-top: 40px;
+  }
+  .CollegePredictor_headerText {
+    margin-top: 15px;
+    color: rgb(12, 12, 98);
+    font-weight: bold;
+    font-size: 28px;
+  }
+  .CollegePredictor_subheaderText {
+    margin-top: 20px;
+  }
+  .CollegePredictor_headerText:after {
+    content: "";
+    height: 3px;
+    width: 10%;
+    background-color: rgb(12, 12, 98);
+    position: absolute;
+    top: 3.7rem;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
+  .CollegePredictor_colLeft {
+    background-color: rgb(249, 249, 255);
+    margin-right: 15px;
+  }
+  .Navbar_MainDiv {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #2f5597!important;
+    } 
+  .CollegePredictor_colRight {
+    padding-top: 20px;
+    background-color: rgb(249, 249, 255);
+  }
+  .CollegePredictor_examLogoDiv {
+    /* padding: 10% 10% 5% 15%; */
+    /* height: 250px; */
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .CollegePredictor_examImg {
+    width: 100%;
+    height: 180px;
+    border: 1px solid black;
+    box-shadow: 0 8px 8px 0 rgb(0 0 0/40%), 0 0 0 3px rgb(0 0 0 / 10%);
+    /* box-shadow: 0 0 2px 0 black; */
+    /* box-sizing: border-box; */
+  }
+  .CollegePredictor_links {
+    text-decoration: none;
+  }
+  .CollegePredictor_links:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+  }
+  .CollegePredictor_examText {
+    margin-top: 20px !important;
+  }
+  /*  Small devices */
+  @media (max-width: 576px) {
+    .CollegePredictor_marginTop {
+      margin-top: 30px;
+    }
+    .CollegePredictor_colLeft {
+      background-color: rgb(249, 249, 255);
+      margin-right: 0;
+    }
+    .CollegePredictor_examImg {
+      width: 100%;
+      height: 100px;
+      border: 1px solid black;
+    }
+    .CollegePredictor_examText {
+      font-size: 10px;
+    }
+    .CollegePredictor_headerText {
+      margin-top: 15px;
+      color: rgb(12, 12, 98);
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .CollegePredictor_subheaderText {
+      margin-top: 20px;
+      font-size: 12px;
+    }
+    .CollegePredictor_headerText:after {
+      content: "";
+      height: 3px;
+      width: 20%;
+      background-color: rgb(12, 12, 98);
+      position: absolute;
+      top: 3rem;
+      left: 50%;
+      transform: translate(-50%);
+    }
+  }
+  /*  Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767px) {
+    .CollegePredictor_marginTop {
+      margin-top: 30px;
+    }
+    .CollegePredictor_colLeft {
+      background-color: rgb(249, 249, 255);
+      margin-right: 0;
+    }
+    .CollegePredictor_examImg {
+      width: 100%;
+      height: 120px;
+      border: 1px solid black;
+    }
+    .CollegePredictor_examText {
+      font-size: 12px;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .CollegePredictor_examImg {
+      width: 100%;
+      height: 120px;
+      border: 1px solid black;
+    }
+    .CollegePredictor_examText {
+      font-size: 12px;
+    }
+  
+    .CollegePredictor_headerText {
+      margin-top: 15px;
+      color: rgb(12, 12, 98);
+      font-weight: bold;
+      font-size: 26px;
+    }
+    .CollegePredictor_subheaderText {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    .CollegePredictor_headerText:after {
+      content: "";
+      height: 3px;
+      width: 10%;
+      background-color: rgb(12, 12, 98);
+      position: absolute;
+      top: 3.7rem;
+      left: 50%;
+      transform: translate(-50%);
+    }
+  }
+  /* Large devices (desktops, and up) */
+  @media (min-width: 1025px) and (max-width: 1200px) {
+    .CollegePredictor_examImg {
+      width: 100%;
+      height: 150px;
+      border: 1px solid black;
+    }
+  }
+  
+  .info-timeline ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .info-timeline ul li span.timeline-circle {
+    position: relative;
+    border: 2px solid #2f5597;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-top: 40px;
+  
+    background-color: #fff;
+    /* z-index: 2; */
+    display: inline-block;
+  }
+  li .step_active {
+    background-color: #2f5597 !important;
+    color: white;
+  }
+  .info-timeline ul li:not(:first-of-type) span.timeline-circle::before {
+    position: absolute;
+    border-left: 2px solid #999;
+    width: 0;
+    height: 40px;
+    display: block;
+    content: "";
+    left: 50%;
+    z-index: 1;
+    top: -42px;
+    /* margin-left: -1px; */
+  }
+ .stepper1{
+    height: 230px;
+    width: 100%;
+    padding-top: 0;
+ } 

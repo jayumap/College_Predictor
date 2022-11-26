@@ -1,0 +1,118 @@
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+.Direct {
+   background-image: url(PngItem_5131515.png);
+  min-height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+
+ 
+}
+
+.box select {
+  background-color: #0563af;
+  color: white;
+  padding: 12px;
+  width: 712px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+  top:10%
+}
+
+.box::before {
+  content: "\f13a";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  font-size: 28px;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+}
+
+.box:hover::before {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.box select option {
+  padding: 30px;
+}
+
+.Direct1 {
+  position: fixed;
+  right: 300px;
+  top: 20%;
+  margin: 9px;
+  max-width: 740px;
+  padding: 16px;
+  background-color: white;
+  border-radius: 25px;
+  width:900px
+}
+.sidebar{
+  position: absolute;
+  left: 0;
+  width: 50%;
+  height: 100px;
+  background: #042331;
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password],input[type=number] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=number]:focus {
+  background-color: #ddd;
+  backdrop-filter: blur;
+  outline: none;
+  
+}
+.select{
+  width: 100%;
+  height: 100%;
+  padding: 15px ,50px;
+  margin: 10px 0 30px 0;
+  border: none;
+  background: #f1f1f1;
+  background-color: #ddd;
+  outline: none;
+  user-select:initial;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: rgb(9, 128, 240);
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}

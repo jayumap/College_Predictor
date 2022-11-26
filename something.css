@@ -1,0 +1,38 @@
+.clear_float.source-selected .rank_dtl, .clear_float.source-selected .rank_section {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.rank_section {
+    width: 28%;
+    display: inline-block;
+}
+* {
+    box-sizing: border-box;
+    font-family: arial;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+    background: rgba(241,242,244,.51);
+    overflow-y: scroll;
+}
+:root {
+    font-size: 16px;
+}
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Arial,sans-serif;
+}
